@@ -1,0 +1,15 @@
+--- id3lib-3.7.13/configure.in.orig	Sun Apr 14 19:05:44 2002
++++ id3lib-3.7.13/configure.in	Sun Apr 14 19:06:12 2002
+@@ -297,9 +297,9 @@
+ AC_DEFINE_UNQUOTED(_ID3_COMPILED_WITH_DEBUGGING, "${enable_debug}")
+ 
+ CONDITIONAL_SUBDIRS=
+-if test "x$ac_cv_lib_z_uncompress" = "xno"; then
+-  CONDITIONAL_SUBDIRS="$CONDITIONAL_SUBDIRS zlib"
+-fi
++#if test "x$ac_cv_lib_z_uncompress" = "xno"; then
++#  CONDITIONAL_SUBDIRS="$CONDITIONAL_SUBDIRS zlib"
++#fi
+ AC_CONFIG_SUBDIRS(zlib)
+ 
+ CFLAGS="$CFLAGS -Wall"
