@@ -1,7 +1,8 @@
-Summary:	A software library for manipulating ID3v1 and ID3v2 tags
+# based on PLD Linux spec git://git.pld-linux.org/packages/id3lib.git
+Summary:	Library for manipulating ID3v1 and ID3v2 tags
 Name:		id3lib
 Version:	3.8.3
-Release:	12
+Release:	13
 License:	LGPL
 Group:		Libraries
 Source0:	http://heanet.dl.sourceforge.net/id3lib/%{name}-%{version}.tar.gz
